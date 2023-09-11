@@ -38,24 +38,12 @@ A report entitled ```reports/NETCONF_{hostname}_{device_type}_{version}_{datetim
 The first object within the file ```inventory.yaml``` must be populated with the connection details to your NSO staging server:
 ```
 staging-nso:
-  address: '10.56.113.68'
+  address: '127.0.0.1'
   port: '8080'
   token: 'bnNvYWRtaW46QXV0MG1hdDMh'
 ```
 
 The **NSO staging server** should have the target devices already onboarded and connection should be feasible (authentication, SSH host-keys).
-```
-admin@ncs# show devices list
-NAME        ADDRESS       DESCRIPTION  NED ID           ADMIN STATE  
--------------------------------------------------------------------
-huawei8210  10.95.86.168  -            huawei-oc-nc-3   unlocked     
-huawei8211  10.95.86.173  -            huawei-oc-nc-3   unlocked     
-huawei8221  10.95.86.114  -            huawei-oc-nc-3   unlocked     
-iosxr762    10.95.90.109  -            xr-oc-nc-2       unlocked     
-iosxr772    10.95.90.117  -            xr-oc-nc-3       unlocked     
-iosxr782    10.95.90.111  -            xr-oc-nc-4       unlocked     
-junos224    10.95.90.108  -            juniper-oc-nc-3  unlocked     
-```
 
 The NSO staging server must also have ```RESTCONF``` enabled.
 
