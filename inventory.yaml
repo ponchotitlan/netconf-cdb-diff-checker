@@ -1,0 +1,77 @@
+staging-nso:
+  address: '10.56.113.68'
+  port: '8080'
+  token: 'bnNvYWRtaW46QXV0MG1hdDMh'
+
+# device_type: | 'huawei' | 'iosxr' | 'junos' |
+
+staging-devices:
+  # - hostname: 'HL4-1-1'
+  #   device_type: 'huawei'
+  #   version: '8.211'
+  #   address: '10.95.86.173'
+  #   username: 'admintid'
+  #   password: 'Huawei!2015'
+
+  # - hostname: 'HL4-2-1'
+  #   device_type: 'huawei'
+  #   version: '8.221'
+  #   address: '10.95.86.114'
+  #   username: 'admintid'
+  #   password: 'Huawei!2015'
+
+  - hostname: 'xrv9k-7.6.2'
+    device_type: 'iosxr'
+    version: '7.6.2'
+    address: '10.95.90.109'
+    username: 'cisco'
+    password: 'cisco123'
+
+  # - hostname: 'xrv9k-7.7.2'
+  #   device_type: 'iosxr'
+  #   version: '7.7.2'
+  #   address: '10.95.90.117'
+  #   username: 'cisco'
+  #   password: 'cisco1234'
+
+  # - hostname: 'xrv9k-7.8.2'
+  #   device_type: 'iosxr'
+  #   version: '7.8.2'
+  #   address: '10.95.90.111'
+  #   username: 'cisco'
+  #   password: 'cisco123'
+
+  # - hostname: 'tid_21.4'
+  #   device_type: 'junos'
+  #   version: '21.4'
+  #   address: '10.95.90.113'
+  #   username: 'tid'
+  #   password: 'jun1per'
+
+  # - hostname: 'tid_22.4'
+  #   device_type: 'junos'
+  #   version: '22.4'
+  #   address: '10.95.90.108'
+  #   username: 'tid'
+  #   password: 'jun1per'
+
+  # - hostname: 'juniper_r211'
+  #   device_type: 'junos'
+  #   version: '21.1'
+  #   address: '10.95.90.178'
+  #   username: 'tid'
+  #   password: 'jun1per'
+
+  # - hostname: 'HL5-3-1'
+  #   device_type: 'huawei'
+  #   version: '8.210'
+  #   address: '10.95.86.166'
+  #   username: 'admintid'
+  #   password: 'Huawei!2015'
+
+  # - hostname: 'gctio_Cisco214_R1'
+  #   device_type: 'iosxr'
+  #   version: '7.5.1'
+  #   address: '10.95.86.214'
+  #   username: 'cisco'
+  #   password: 'cisco2020'
